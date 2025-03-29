@@ -10,4 +10,9 @@ func main() {
 	// grade user depending on the input marks
 
 	// use control structures
+
+	// you have 2 friends lists
+	// find all friends combined
+	// find the friends only on one side
+	// find all the friends in both
 }
