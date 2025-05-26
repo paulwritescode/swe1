@@ -68,6 +68,6 @@ func main(){
     for i := 0; i < noOfJobs; i++{
         result := <- results
         jobi := <- jobs
-        fmt.Printf("Job id %s %d, input random no %d , sum of digits %d\n",result.Name, result.JobID, jobi.RandomNumber, result.SumofDigits)
+        fmt.Printf("Worker: %s Job id %d, input random no %d , sum of digits %d\n",result.Name, result.JobID, jobi.RandomNumber, result.SumofDigits)
     }
 }

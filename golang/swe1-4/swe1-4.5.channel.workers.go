@@ -32,7 +32,7 @@ func Worker(jobs <-chan Job, results chan<- Result){
 		output := Result{
 			JobID: job.ID,
 			SumofDigits: digits(job.RandomNumber),
-			Name: "hello all",
+			Name: "WORKER",
 		}
 		results <- output
 	}
