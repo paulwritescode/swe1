@@ -20,18 +20,18 @@ The primary programming language used throughout this learning journey is:
 ## Repository Structure
 
 ```
-swe1/
-├── tests/          # Practice problems and coding challenges
-├── topics/         # Learning materials and documentation
-├── projects/       # Small-scale coding projects
-└── README.md       # This file
+golang/
+├── swe1-1/ 
+├── swe1-2/
+├── ....../
+└── README.md
 ```
 
 ## Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/swe1.git
+   gh repo clone paulwritescode/swe1
    cd swe1
    ```
 
